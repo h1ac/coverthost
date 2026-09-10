@@ -1,7 +1,6 @@
-// Canonical site identity. Set NEXT_PUBLIC_SITE_URL in the environment when
-// coverthost.com goes live to retarget every canonical/sitemap/OG URL at once.
+// Canonical site identity. Public production origin for canonical/sitemap/OG URLs.
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://77.223.214.183.sslip.io";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://coverthost.com";
 
 export const SITE_NAME = "Covert Host";
 export const SITE_TAGLINE = "Anonymous crypto VPS hosting";
