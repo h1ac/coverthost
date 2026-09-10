@@ -25,6 +25,11 @@ export const FAQS = [
     answer: "Yes. USDT, USDC and DAI.",
   },
   {
+    question: "Do you ever require ID or KYC verification?",
+    answer:
+      "Never, at any point. We do not request and do not accept government ID, selfies, proof of address, or any identity documents — for any reason, including payment disputes or legal requests. If someone claiming to be Covert Host asks you for KYC, it is an impersonation attempt.",
+  },
+  {
     question: "Do you offer refunds?",
     answer: "Within 48 hours, returned to the originating address.",
   },

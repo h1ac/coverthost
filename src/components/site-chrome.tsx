@@ -94,6 +94,18 @@ export function SiteFooter() {
           >
             Order
           </Link>
+          <Link
+            href="/terms"
+            className="hover:text-indigo-600 dark:hover:text-indigo-400"
+          >
+            Terms
+          </Link>
+          <Link
+            href="/privacy"
+            className="hover:text-indigo-600 dark:hover:text-indigo-400"
+          >
+            Privacy
+          </Link>
         </nav>
       </div>
     </footer>
