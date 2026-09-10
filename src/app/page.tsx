@@ -1,38 +1,7 @@
 import { SiteHeader, SiteFooter } from "@/components/site-chrome";
 import { CoinIcon } from "@/components/coin-icons";
 import { PLANS, COINS, REGIONS } from "@/lib/data";
-
-const FAQS = [
-  {
-    question: "Do you require an account or ID?",
-    answer:
-      "No. Choose a plan, send payment, and receive your credentials. We never ask for a name, address, or identity documents.",
-  },
-  {
-    question: "What logs do you keep?",
-    answer:
-      "No traffic or connection logs. Nothing is retained after your server is destroyed.",
-  },
-  {
-    question: "How fast is provisioning?",
-    answer:
-      "Within five minutes of payment confirmation.",
-  },
-  {
-    question: "Where are your servers located?",
-    answer: `Nine locations worldwide: ${REGIONS.map((r) => r.city).join(", ")}.`,
-  },
-  {
-    question: "Can I pay with a stablecoin?",
-    answer:
-      "Yes. USDT, USDC and DAI.",
-  },
-  {
-    question: "Do you offer refunds?",
-    answer:
-      "Within 48 hours, returned to the originating address.",
-  },
-];
+import { FAQS, orgJsonLd, serviceJsonLd, faqJsonLd } from "@/lib/seo";
 
 function Coin({ sym, name }: { sym: string; name: string }) {
   return (
@@ -62,6 +31,18 @@ function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) 
 export default function Home() {
   return (
     <div className="bg-white text-zinc-600 dark:bg-zinc-950 dark:text-zinc-300">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd()) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd()) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd()) }}
+      />
       <SiteHeader />
 
       <main>
