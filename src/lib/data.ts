@@ -1,0 +1,85 @@
+export const PLANS = [
+  {
+    name: "VPS.xsmall",
+    tagline: "Bots, small utilities",
+    vcpu: 2,
+    ram: 4,
+    disk: 40,
+    price: 6,
+    highlight: false,
+  },
+  {
+    name: "VPS.small",
+    tagline: "Personal sites, VPNs",
+    vcpu: 4,
+    ram: 8,
+    disk: 80,
+    price: 12,
+    highlight: false,
+  },
+  {
+    name: "VPS.medium",
+    tagline: "Web apps, databases",
+    vcpu: 8,
+    ram: 16,
+    disk: 160,
+    price: 18,
+    highlight: true,
+  },
+  {
+    name: "VPS.large",
+    tagline: "Busy apps, dev stacks",
+    vcpu: 16,
+    ram: 32,
+    disk: 320,
+    price: 24,
+    highlight: false,
+  },
+  {
+    name: "VPS.xlarge",
+    tagline: "Heavy workloads",
+    vcpu: 32,
+    ram: 64,
+    disk: 640,
+    price: 46,
+    highlight: false,
+  },
+];
+
+export const COINS = [
+  { sym: "BTC", name: "Bitcoin" },
+  { sym: "XMR", name: "Monero" },
+  { sym: "ETH", name: "Ethereum" },
+  { sym: "USDT", name: "Tether" },
+  { sym: "USDC", name: "USD Coin" },
+  { sym: "SOL", name: "Solana" },
+  { sym: "BNB", name: "BNB" },
+  { sym: "LTC", name: "Litecoin" },
+  { sym: "TRX", name: "TRON" },
+  { sym: "DOGE", name: "Dogecoin" },
+  { sym: "AVAX", name: "Avalanche" },
+  { sym: "BCH", name: "Bitcoin Cash" },
+  { sym: "POL", name: "Polygon" },
+  { sym: "DASH", name: "Dash" },
+  { sym: "SHIB", name: "Shiba Inu" },
+  { sym: "DAI", name: "Dai" },
+];
+
+export const DURATIONS = [
+  { months: 1, label: "1 month", discount: 0 },
+  { months: 3, label: "3 months", discount: 20 },
+  { months: 6, label: "6 months", discount: 40 },
+  { months: 12, label: "12 months", discount: 60 },
+];
+
+export const REGIONS = [
+  { id: "us-nyc", cc: "us", city: "New York", country: "United States", code: "US-East" },
+  { id: "us-lax", cc: "us", city: "Los Angeles", country: "United States", code: "US-West" },
+  { id: "de-fra", cc: "de", city: "Frankfurt", country: "Germany", code: "EU-Central" },
+  { id: "nl-ams", cc: "nl", city: "Amsterdam", country: "Netherlands", code: "EU-West" },
+  { id: "gb-lon", cc: "gb", city: "London", country: "United Kingdom", code: "UK" },
+  { id: "sg-sin", cc: "sg", city: "Singapore", country: "Singapore", code: "APAC" },
+  { id: "jp-tyo", cc: "jp", city: "Tokyo", country: "Japan", code: "APAC-North" },
+  { id: "in-mum", cc: "in", city: "Mumbai", country: "India", code: "India" },
+  { id: "au-syd", cc: "au", city: "Sydney", country: "Australia", code: "Oceania" },
+];
