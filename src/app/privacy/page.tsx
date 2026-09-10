@@ -165,7 +165,7 @@ export default function PrivacyPage() {
               9. Your data, your rights
             </h2>
             <p className="mt-3 text-sm leading-relaxed">
-              Want everything gone? Email sales@coverthost.com from the
+              Want everything gone? Email support@coverthost.com from the
               address on the order with your order ID and we delete everything
               except what keeps your active server running — or just let the
               term lapse, after which the remaining records fall out of
@@ -204,7 +204,7 @@ export default function PrivacyPage() {
               12. Contact
             </h2>
             <p className="mt-3 text-sm leading-relaxed">
-              Questions about privacy: sales@coverthost.com
+              Questions about privacy: support@coverthost.com
             </p>
           </section>
         </div>

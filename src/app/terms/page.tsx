@@ -57,7 +57,7 @@ export default function TermsPage() {
               personal data we ask for is a single email address, used solely
               to deliver your server credentials. If anyone claiming to be us
               ever asks you for KYC, it is an impersonation attempt — report
-              it to sales@coverthost.com.
+              it to support@coverthost.com.
             </p>
           </section>
 
@@ -185,7 +185,7 @@ export default function TermsPage() {
               12. Contact
             </h2>
             <p className="mt-3 text-sm leading-relaxed">
-              Questions about these terms: sales@coverthost.com
+              Questions about these terms: support@coverthost.com
             </p>
           </section>
         </div>

@@ -251,7 +251,7 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <a
-                href="mailto:sales@coverthost.com"
+                href="mailto:support@coverthost.com"
                 className="cursor-pointer rounded-md bg-indigo-600 px-6 py-3 text-sm font-semibold text-white hover:bg-indigo-500"
               >
                 Email sales

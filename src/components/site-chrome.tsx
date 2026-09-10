@@ -106,6 +106,12 @@ export function SiteFooter() {
           >
             Privacy
           </Link>
+          <a
+            href="mailto:support@coverthost.com"
+            className="hover:text-indigo-600 dark:hover:text-indigo-400"
+          >
+            Support
+          </a>
         </nav>
       </div>
     </footer>
